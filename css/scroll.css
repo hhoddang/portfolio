@@ -1,0 +1,47 @@
+#fp-nav.right {
+    right: 5%;
+}
+
+#fp-nav ul li {
+    width: 30px;
+    height: 30px;
+    margin: 30px 0;
+}
+#fp-nav ul li a {
+    margin:0;
+}
+#fp-nav ul li a span{
+    width: 10px;
+    height: 10px;
+    margin:0;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color:#fff;
+
+}
+#fp-nav ul li a:hover span{
+    width: 15px;
+    height: 15px;
+}
+#fp-nav ul li a.active span{
+    width: 20px;
+    height: 20px;
+}
+#fp-nav ul li .fp-tooltip.right{
+    font-size:20px;
+    margin-top:5px;
+    color:#fff;
+}
+.fp-controlArrow.fp-prev {
+    width: 100px;
+    height: 100px;
+    background:url("../img/prev.png") center center;
+    background-size:cover;
+}
+.fp-controlArrow.fp-next{
+    width: 100px;
+    height: 100px;
+    background:url("../img/next.png") center center;
+    background-size:cover;
+}
