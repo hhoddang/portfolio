@@ -513,3 +513,47 @@ button{background: 0 none; border: 0 none;}
 .buttons .buttonBG:hover:before {
     width: 200%;
 }
+
+#section4{
+    background:#0e0f19;
+    position:relative;
+
+}
+
+#section4 h1{
+    font-size:15rem;
+    font-weight: bold;
+    color:#ccd0fc;
+    position:absolute;
+    right:2rem;
+    bottom:2rem;
+    opacity: .4;
+}
+
+.gallery {
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+
+ }
+ .gallery {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gallery li {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .gallery img {
+    width: 100%;
+  }
+  

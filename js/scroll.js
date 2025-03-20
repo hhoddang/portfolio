@@ -6,7 +6,7 @@ $(document).ready(function () {
         anchor: ['first', 'second', 'third', 'fourth'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['About', 'Skill', 'Work'],
+        navigationTooltips: ['About', 'Skill', 'Work','Design'],
         sectionsColor: ['lightblue', '#1E1A3B', 'lightyellow'],
         showActiveTolltip: true,
         sectionSelector: '.section',
